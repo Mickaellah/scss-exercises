@@ -86,7 +86,8 @@ $theme-colors: map-merge(
     "warning":    $warning,
     "danger":     $danger,
     "light":      $light,
-    "dark":       $dark
+    "dark":       $dark,
+    "black":      $black
   ),
   $theme-colors
 );
@@ -1145,3 +1146,8 @@ $user-selects: all, auto, none !default;
 
 $print-page-size:                   a3 !default;
 $print-body-min-width:              map-get($grid-breakpoints, "lg") !default;
+
+
+// Panel component.
+
+$panel-padding: 2rem !default;
