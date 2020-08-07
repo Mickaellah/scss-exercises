@@ -9,6 +9,12 @@
   At first when I didn't comment the rests of my @import rule my file was 183KB, but when I comment them out, it is 2.3KB. When we just which need by uncommented them and leave the others commented, my file was 104KB.
 
  */
+body {
+  text-align: center; }
+
+.masthead_image {
+  margin-block-start: 40px; }
+
 *,
 *::before,
 *::after {
